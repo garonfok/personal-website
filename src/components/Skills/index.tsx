@@ -1,9 +1,6 @@
 // src/components/Skills.tsx
 
-import React from "react";
 import { skills } from "../../data";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Skills = () => {
   return (

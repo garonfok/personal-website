@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Menu, Transition } from "@headlessui/react";
+import { Menu } from "@headlessui/react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
