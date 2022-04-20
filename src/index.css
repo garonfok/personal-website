@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "LexendDeca";
+  src: local("LexendDeca"),
+    url("/src/fonts/Lexend_Deca/LexendDeca-Regular.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nb {
+  @apply block px-4 py-2 duration-100 hover:text-slate-700;
+}
+
+.tab-head {
+  @apply px-6 py-3 text-xs sm:text-sm font-medium text-slate-700
+}
+
+.tab-body {
+  @apply text-xs sm:text-base px-6 py-4
+}
+
+.footer-icons {
+  @apply text-lg transition duration-100 hover:text-slate-700 px-2
+}
+
+.section-container {
+  @apply container max-w-5xl px-8 py-10 mx-auto text-center
+}
