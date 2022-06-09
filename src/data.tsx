@@ -25,17 +25,17 @@ export const projects = [
     builtWith:"React, TailwindCSS, TypeScript, Netlify",
     description:
       "My personal website containing information about myself, my projects, and my resume.",
-    link: "https://github.com/garonfok/pandabot",
+    link: "https://garonfok.com",
   },
 ];
 
 export const skills = [
+  "Docker",
   "SQL",
   "Git",
   "React",
   "Node.js",
   "JavaScript/TypeScript",
-  "Go",
   "Python",
   "Pandas",
   "Bash",
