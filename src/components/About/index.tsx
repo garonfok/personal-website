@@ -16,9 +16,7 @@ const About = () => {
             About Me
           </h1>
           <p className="mb-8 leading-relaxed text-slate-700">
-            I'm a musician at heart, but I have a love for discovering the how
-            and why of everything around me. I love programming because it's a
-            way to solve problems and to create solutions. When I'm not coding,
+            I'm a musician based in the San Francisco Bay Area who has been playing and teaching for over 8 years. I'm also a software developer, driven by my desire to solve problems and understand the world around me. When I'm not coding,
             I'm usually writing music, playing my euphonium and trombone, or
             playing with my dog.
           </p>

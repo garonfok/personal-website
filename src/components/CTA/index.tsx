@@ -17,7 +17,7 @@ const CTA = () => {
               Let's Talk!
             </h1>
             <p className="py-4 mx-auto text-base leading-relaxed text-slate-700">
-              If you'd like to learn more about me, or get in touch for any
+              If you'd like to learn more about me, schedule a lesson, or get in touch for any
               reason, don't hesitate to send me an email!
             </p>
             <div className="grid-cols-2 gap-4 py-2 mt-5 text-xl sm:grid">
