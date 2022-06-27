@@ -30,16 +30,16 @@ export const projects = [
 ];
 
 export const skills = [
+  "Python",
+  "Linux",
   "Docker",
-  "SQL",
   "Git",
   "React",
   "Node.js",
   "JavaScript/TypeScript",
-  "Python",
+  "SQL",
   "Pandas",
   "Bash",
-  "Google",
 ];
 
 export const music = [
