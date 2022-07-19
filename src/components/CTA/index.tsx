@@ -35,7 +35,7 @@ const CTA = () => {
                 onClick={downloadResume}
                 className="w-full py-2 my-2 border rounded-lg border-slate-300 bg-slate-100 text-cyan-900 hover:bg-gray-200"
               >
-                Resume
+                Download Resume
               </button>
             </div>
           </div>
