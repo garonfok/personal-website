@@ -13,7 +13,7 @@ const Hero = () => {
             Garon.
           </h1>
           <h2 className="mb-6 text-2xl sm:text-3xl md:text-4xl">
-            I'm from Mountain View, California, and I like to write code!
+            I'm from Mountain View, California, and I'm a software engineer!
           </h2>
           <p className="text-slate-500">
             I'm also a musician and composer! Scroll down to learn more about

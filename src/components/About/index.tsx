@@ -16,9 +16,11 @@ const About = () => {
             About Me
           </h1>
           <p className="mb-8 leading-relaxed text-slate-700">
-            I'm a musician based in the San Francisco Bay Area who has been playing and teaching for over 8 years. I'm also a software developer, driven by my desire to solve problems and understand the world around me. When I'm not coding,
-            I'm usually writing music, playing my euphonium and trombone, or
-            playing with my dog.
+            My name is Garon Fok, and I'm a software engineer based in the San Francisco Bay Area. My primary interests are in full-stack development, as well as working with RESTful APIs and databases. When I'm not coding, I'm a also musician who teaches lessons in my free time. I am currently looking for roles where I can continue to develop my abilities and learn about and work with the latest frameworks and tools.
+          </p>
+          <p className="mb-8 leading-relaxed text-slate-700">
+
+          If you believe that I would be a good fit for your company, please contact me me at <a href="mailto:fokgaron@gmail.com" className="text-blue-700 underline">fokgaron@gmail.com</a>.
           </p>
         </div>
       </div>
