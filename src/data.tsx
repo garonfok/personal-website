@@ -31,14 +31,14 @@ export const projects = [
 
 export const skills = [
   "Python",
-  "Linux",
-  "Docker",
-  "Git",
+  "JavaScript/TypeScript",
   "React",
   "Node.js",
-  "JavaScript/TypeScript",
+  "REST APIs",
+  "Docker",
+  "Git",
   "SQL",
-  "Pandas",
+  "Linux",
   "Bash",
 ];
 
