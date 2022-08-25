@@ -9,7 +9,7 @@ const About = () => {
     saveAs(process.env.PUBLIC_URL + "/resume.pdf", "resume.pdf");
   };
   return (
-    <section id="about" className="bg-white body-font shadow-xl">
+    <section id="about" className="bg-slate-100 body-font shadow-xl">
       <div className="container flex flex-col items-center max-w-5xl px-8 py-24 mx-auto md:flex-row">
         <div className="w-5/6 mb-10 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
           <img
@@ -32,7 +32,7 @@ const About = () => {
             frameworks and tools.
           </p>
             <div className="grid-cols-2 gap-8 sm:grid">
-            <button onClick={downloadResume} className="px-3 py-1.5 rounded-lg border border-slate-300 bg-white text-cyan-900 hover:bg-gray-200">
+            <button onClick={downloadResume} className="px-3 py-1.5 rounded-lg border border-slate-300 bg-slate-100 text-cyan-900 hover:bg-slate-200">
               Resume
               <FontAwesomeIcon className="pl-3" icon={solid("download")} />
             </button>
