@@ -9,7 +9,7 @@ const Navbar = () => {
   //   saveAs(process.env.PUBLIC_URL + "/resume.pdf", "resume.pdf");
   // };
   return (
-    <nav className="sticky top-0 z-10 shadow-md text-slate-900 bg-cyan-100">
+    <nav className="sticky top-0 z-10 shadow-md text-slate-900 bg-slate-100">
       <div className="container flex-row justify-between py-2.5 max-w-5xl px-8 mx-auto flex items-center">
         <a href="#top" className="gap-4 flex items-center">
           <Panda />
