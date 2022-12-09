@@ -16,7 +16,7 @@ export const CTA = () => {
               reason, don't hesitate to send me an email!
             </p>
             <div className="grid-cols-2 gap-4 py-2 mt-5 text-xl sm:grid">
-              <a target="_blank" href={RESUME_URL} className="inline-block w-full py-2 my-2 mx-auto border rounded-lg border-slate-300 bg-slate-100 text-cyan-900 hover:bg-gray-200">
+              <a target="_blank" rel="noreferrer" href={RESUME_URL} className="inline-block w-full py-2 my-2 mx-auto border rounded-lg border-slate-300 bg-slate-100 text-cyan-900 hover:bg-gray-200">
                 Resume
               </a>
               <button
