@@ -1,6 +1,6 @@
 // src/components/Skills.tsx
 
-import { skills } from "../../data/personal";
+import { skills } from "../../../data/personal";
 
 export const Skills = () => {
   return (

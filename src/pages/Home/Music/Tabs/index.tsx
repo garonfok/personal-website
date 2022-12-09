@@ -1,6 +1,6 @@
 import { Tab } from "@headlessui/react";
 
-import { music } from "../../../data/personal";
+import { music } from "../../../../data/personal";
 
 export const Tabs = () => {
 

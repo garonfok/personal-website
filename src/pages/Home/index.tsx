@@ -1,13 +1,13 @@
 
 
-import { Navbar } from "../../components/Navbar"
-import { Hero } from "../../components/Hero"
-import { Footer } from "../../components/Footer"
-import { About } from "../../components/About"
-import { Projects } from "../../components/Projects"
-import { Skills } from "../../components/Skills"
-import { CTA } from "../../components/CTA"
-import { Music } from "../../components/Music"
+import { Navbar } from "./Navbar"
+import { Hero } from "./Hero"
+import { Footer } from "./Footer"
+import { About } from "./About"
+import { Projects } from "./Projects"
+import { Skills } from "./Skills"
+import { CTA } from "./CTA"
+import { Music } from "./Music"
 
 export const Home = () => {
   return (
