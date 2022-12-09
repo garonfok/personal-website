@@ -1,10 +1,10 @@
 export const projects = [
   {
-    title: "Daily MD",
-    builtWith:"TypeScript, Mocha",
+    title: "Pandabot",
+    builtWith:"TypeScript, MongoDB, DiscordJS",
     description:
-      "VS Code Extension that generates Markdown files for notetaking.",
-    link: "https://github.com/garonfok/daily-md",
+      "Discord bot built with TypeScript and MongoDB that functions as a coordinate and world save manager for Minecraft for users on a server.",
+    link: "https://github.com/garonfok/pandabot",
   },
   {
     title: "Redditor-Downloader",
@@ -14,32 +14,32 @@ export const projects = [
     link: "https://github.com/garonfok/redditor-downloader",
   },
   {
-    title: "Pandabot",
-    builtWith:"TypeScript, MongoDB, DiscordJS",
-    description:
-      "Discord bot built with TypeScript and MongoDB that functions as a coordinate and world save manager for Minecraft for users on a server.",
-    link: "https://github.com/garonfok/pandabot",
-  },
-  {
     title: "This Website!",
     builtWith:"React, TailwindCSS, TypeScript, Netlify",
     description:
       "My personal website containing information about myself, my projects, and my resume.",
-    link: "https://garonfok.com",
+    link: "https://github.com/garonfok/personal-website",
+  },
+  {
+    title: "Daily MD",
+    builtWith:"TypeScript, Mocha",
+    description:
+      "VS Code Extension that generates Markdown files for notetaking.",
+    link: "https://github.com/garonfok/daily-md",
   },
 ];
 
 export const skills = [
-  "Python",
   "JavaScript/TypeScript",
   "React",
   "Node.js",
-  "REST APIs",
+  "Python",
+  "Laravel",
   "Docker",
   "Git",
-  "SQL",
-  "Linux",
-  "Bash",
+  "MongoDB",
+  "MySQL",
+  "PostgreSQL",
 ];
 
 export const music = [
