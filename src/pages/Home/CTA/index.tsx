@@ -1,7 +1,8 @@
 // src/components/Contact.tsx
-import { Link } from "react-router-dom";
 
 export const CTA = () => {
+
+  const RESUME_URL = `${process.env.PUBLIC_URL}/resume.pdf`
   return (
     <section id="cta" className="bg-gradient-to-b from-slate-200 to-rose-100">
       <div className="container max-w-5xl px-4 py-10 mx-auto text-center lg:px-40">
@@ -15,9 +16,9 @@ export const CTA = () => {
               reason, don't hesitate to send me an email!
             </p>
             <div className="grid-cols-2 gap-4 py-2 mt-5 text-xl sm:grid">
-              <Link to="/resume" className="inline-block w-full py-2 my-2 mx-auto border rounded-lg border-slate-300 bg-slate-100 text-cyan-900 hover:bg-gray-200">
+              <a href={RESUME_URL} className="inline-block w-full py-2 my-2 mx-auto border rounded-lg border-slate-300 bg-slate-100 text-cyan-900 hover:bg-gray-200">
                 Resume
-              </Link>
+              </a>
               <button
                 type="button"
                 onClick={() => {
