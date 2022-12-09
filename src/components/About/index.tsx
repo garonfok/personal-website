@@ -1,8 +1,3 @@
-import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { downloadResume } from "../../utils";
-
 export const About = () => {
   return (
     <section id="about" className="bg-slate-100 body-font shadow-xl">
@@ -20,29 +15,11 @@ export const About = () => {
           </h1>
           <p className="mb-8 leading-relaxed text-slate-700">
             My name is Garon Fok, and I'm a software engineer based in the San
-            Francisco Bay Area. My primary interests are in full-stack
-            development, as well as working with RESTful APIs and databases.
-            When I'm not coding, I'm also a musician who teaches lessons in my
-            free time. I am currently looking for roles where I can continue to
+            Francisco Bay Area. I'm currently working in web development, with my primary stack technologies being React and Node.
+            I also teach private music lessons in trumpet, trombone, euphonium, and tuba. I am currently looking for roles where I can continue to
             develop my abilities and learn about and work with the latest
             frameworks and tools.
           </p>
-            <div className="grid-cols-2 gap-8 sm:grid">
-            <button onClick={downloadResume} className="px-3 py-1.5 rounded-lg border border-slate-300 bg-slate-100 text-cyan-900 hover:bg-slate-200">
-              Resume
-              <FontAwesomeIcon className="pl-3" icon={solid("download")} />
-            </button>
-            <button
-              type="button"
-              onClick={() =>
-                (window.location.href = "mailto:fokgaron@gmail.com")
-              }
-              className="text-white px-3 py-1.5 rounded-lg bg-cyan-700 hover:bg-cyan-900 shadow-md"
-            >
-              Contact Me
-              <FontAwesomeIcon className="pl-3" icon={solid("chevron-right")} />
-            </button>
-          </div>
         </div>
       </div>
     </section>
