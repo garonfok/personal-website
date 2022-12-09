@@ -1,6 +1,7 @@
 // src/components/Contact.tsx
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { downloadResume } from "../../utils";
 
@@ -18,13 +19,9 @@ export const CTA = () => {
               reason, don't hesitate to send me an email!
             </p>
             <div className="grid-cols-2 gap-4 py-2 mt-5 text-xl sm:grid">
-              <button
-                type="button"
-                onClick={downloadResume}
-                className="w-full py-2 my-2 border rounded-lg border-slate-300 bg-slate-100 text-cyan-900 hover:bg-gray-200"
-              >
-                Download Resume
-              </button>
+              <Link to="/resume" className="w-full py-2 my-2 border rounded-lg border-slate-300 bg-slate-100 text-cyan-900 hover:bg-gray-200">
+                Resume
+              </Link>
               <button
                 type="button"
                 onClick={() => {
