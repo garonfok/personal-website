@@ -1,6 +1,6 @@
-import Tabs from "./Tabs";
+import { Tabs } from "./Tabs";
 
-const Music = () => {
+export const Music = () => {
   return (
     <section id="music" className="body-font">
       <div className="section-container">
@@ -22,5 +22,3 @@ const Music = () => {
     </section>
   );
 };
-
-export default Music;

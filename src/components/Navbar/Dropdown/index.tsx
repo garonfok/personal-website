@@ -5,7 +5,7 @@ import { Menu } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
-const Dropdown = () => {
+export const Dropdown = () => {
   let [items] = useState({
     About: "about",
     Projects: "projects",
@@ -42,5 +42,3 @@ const Dropdown = () => {
     </Menu>
   );
 };
-
-export default Dropdown;

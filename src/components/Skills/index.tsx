@@ -1,8 +1,8 @@
 // src/components/Skills.tsx
 
-import { skills } from "../../data";
+import { skills } from "../../data/personal";
 
-const Skills = () => {
+export const Skills = () => {
   return (
     <section id="skills">
       <div className="section-container">
@@ -29,5 +29,3 @@ const Skills = () => {
     </section>
   );
 };
-
-export default Skills;

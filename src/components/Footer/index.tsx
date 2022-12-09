@@ -1,11 +1,9 @@
 // src/components/Footer.js
 
-import React from "react";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid, brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="text-slate-500 bg-rose-100">
       <div className="container flex flex-col-reverse items-center max-w-5xl px-8 py-3 mx-auto sm:flex-row">
@@ -40,5 +38,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

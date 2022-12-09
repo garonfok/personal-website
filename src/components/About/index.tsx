@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { downloadResume } from "../../utils";
 
-const About = () => {
+export const About = () => {
   return (
     <section id="about" className="bg-slate-100 body-font shadow-xl">
       <div className="container flex flex-col items-center max-w-5xl px-8 py-24 mx-auto md:flex-row">
@@ -48,5 +48,3 @@ const About = () => {
     </section>
   );
 };
-
-export default About;

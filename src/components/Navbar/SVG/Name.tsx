@@ -1,4 +1,4 @@
-const Name = () => (
+export const Name = () => (
   <svg
     viewBox="0 0 5040 800"
     xmlns="http://www.w3.org/2000/svg"
@@ -20,5 +20,3 @@ const Name = () => (
     />
   </svg>
 )
-
-export default Name

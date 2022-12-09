@@ -4,7 +4,7 @@ import React from "react";
 
 import { downloadResume } from "../../utils";
 
-const CTA = () => {
+export const CTA = () => {
   return (
     <section id="cta" className="bg-gradient-to-b from-slate-200 to-rose-100">
       <div className="container max-w-5xl px-4 py-10 mx-auto text-center lg:px-40">
@@ -41,5 +41,3 @@ const CTA = () => {
     </section>
   );
 };
-
-export default CTA;

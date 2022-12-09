@@ -1,10 +1,8 @@
-// import { saveAs } from "file-saver";
+import { Dropdown } from "./Dropdown";
+import { Panda } from "./SVG/Panda";
+import { Name } from "./SVG/Name";
 
-import Dropdown from "./Dropdown";
-import Panda from "./SVG/Panda";
-import Name from "./SVG/Name";
-
-const Navbar = () => {
+export const Navbar = () => {
   // const downloadResume = () => {
   //   saveAs(process.env.PUBLIC_URL + "/resume.pdf", "resume.pdf");
   // };
@@ -37,5 +35,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;

@@ -1,7 +1,6 @@
-import React from "react";
-import { projects } from "../../data";
+import { projects } from "../../data/personal";
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <section id="projects">
       <div className="section-container">
@@ -39,5 +38,3 @@ const Projects = () => {
     </section>
   );
 };
-
-export default Projects;

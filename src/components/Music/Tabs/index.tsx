@@ -1,12 +1,13 @@
 import { Tab } from "@headlessui/react";
 
-import { music } from "../../data";
+import { music } from "../../../data/personal";
 
-const classNames = (...classes: any[]) => {
-  return classes.filter(Boolean).join(" ");
-};
+export const Tabs = () => {
 
-const Music = () => {
+  const classNames = (...classes: any[]) => {
+    return classes.filter(Boolean).join(" ");
+  };
+
   return (
     <div className="w-full px-2 sm:px-0">
       <Tab.Group>
@@ -59,5 +60,3 @@ const Music = () => {
     </div>
   );
 };
-
-export default Music;
