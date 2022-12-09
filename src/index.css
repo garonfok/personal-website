@@ -5,7 +5,7 @@
 @font-face {
   font-family: "LexendDeca";
   src: local("LexendDeca"),
-    url("/src/fonts/Lexend_Deca/LexendDeca-Regular.ttf") format("truetype");
+    url("/src/assets/fonts/Lexend_Deca/LexendDeca-Regular.ttf") format("truetype");
 }
 
 html {
