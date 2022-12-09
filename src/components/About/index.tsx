@@ -1,13 +1,9 @@
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 
-import { saveAs } from "file-saver";
+import { downloadResume } from "../../utils";
 
 const About = () => {
-  const downloadResume = () => {
-    saveAs(process.env.PUBLIC_URL + "/resume.pdf", "resume.pdf");
-  };
   return (
     <section id="about" className="bg-slate-100 body-font shadow-xl">
       <div className="container flex flex-col items-center max-w-5xl px-8 py-24 mx-auto md:flex-row">

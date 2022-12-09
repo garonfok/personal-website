@@ -2,12 +2,9 @@
 
 import React from "react";
 
-import { saveAs } from "file-saver";
+import { downloadResume } from "../../utils";
 
 const CTA = () => {
-  const downloadResume = () => {
-    saveAs(process.env.PUBLIC_URL + "/resume.pdf", "resume.pdf");
-  };
   return (
     <section id="cta" className="bg-gradient-to-b from-slate-200 to-rose-100">
       <div className="container max-w-5xl px-4 py-10 mx-auto text-center lg:px-40">
