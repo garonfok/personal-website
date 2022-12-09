@@ -5,21 +5,22 @@ export const About = () => {
         <div className="w-5/6 mb-10 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
           <img
             className="object-cover object-center rounded-md shadow-md"
-            alt="profile of garon wearing a mask"
-            src="./images/about_profile.jpg"
+            alt="profile of garon"
+            src="./images/about_profile.png"
           />
         </div>
         <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
           <h1 className="mb-4 text-3xl font-bold text-slate-900 sm:text-4xl">
             About Me
           </h1>
-          <p className="mb-8 leading-relaxed text-slate-700">
-            My name is Garon Fok, and I'm a software engineer based in the San
-            Francisco Bay Area. I'm currently working in web development, with my primary stack technologies being React and Node.
-            I also teach private music lessons in trumpet, trombone, euphonium, and tuba. I am currently looking for roles where I can continue to
-            develop my abilities and learn about and work with the latest
-            frameworks and tools.
-          </p>
+          <div className="mb-8 leading-relaxed text-slate-700 gap-y-4 grid">
+            <p>My name is Garon Fok, and I'm a software engineer based in the San Francisco Bay Area.
+            </p>
+            <p>I have development experience in React, Laravel, MySQL, and Node, and am currently working as a front-end engineer.
+            </p>
+            <p>I'm looking for roles and opportunities in full-stack development. If you're interested, feel free to send me an email!</p>
+            <p>In my spare time, I also teach private music lessons in trumpet, trombone, euphonium, and tuba!</p>
+          </div>
         </div>
       </div>
     </section>
