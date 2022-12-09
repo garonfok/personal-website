@@ -1,9 +1,5 @@
 // src/components/Contact.tsx
-
-import React from "react";
 import { Link } from "react-router-dom";
-
-import { downloadResume } from "../../utils";
 
 export const CTA = () => {
   return (
