@@ -1,3 +1,6 @@
+import { brands, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export const About = () => {
   return (
     <section id="about" className="bg-slate-100 body-font shadow-xl">
@@ -20,6 +23,9 @@ export const About = () => {
             </p>
             <p>I'm looking for roles and opportunities in full-stack development. If you're interested, feel free to send me an email!</p>
             <p>In my spare time, I also teach private music lessons in trumpet, trombone, euphonium, and tuba!</p>
+            <a target="_blank" rel="noreferrer" href="https://github.com/garonfok" className="flex items-center gap-x-4 text-xl justify-center inline-block w-full py-2 my-2 mx-auto text-white rounded-lg shadow-md bg-slate-900 hover:bg-slate-700">
+              <FontAwesomeIcon icon={brands("github")} /> Follow me on GitHub <FontAwesomeIcon icon={solid("chevron-right")} />
+            </a>
           </div>
         </div>
       </div>
