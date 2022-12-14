@@ -20,9 +20,9 @@ export const Navbar = () => {
           <a href="#projects" className="nb">
             Projects
           </a>
-          <a href="#skills" className="nb">
+          {/* <a href="#skills" className="nb">
             Skills
-          </a>
+          </a> */}
           <a href="#music" className="nb">
             Music
           </a>
