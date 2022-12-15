@@ -8,7 +8,7 @@ import { Projects } from "./Projects"
 // import { Skills } from "./Skills"
 import { CTA } from "./CTA"
 import { Music } from "./Music"
-import { Work } from "./Work"
+// import { Work } from "./Work"
 
 export const Home = () => {
   return (
@@ -16,7 +16,7 @@ export const Home = () => {
       <Navbar />
       <Hero />
       <About />
-      <Work />
+      {/* <Work /> */}
       <Projects />
       {/* <Skills /> */}
       <Music />
