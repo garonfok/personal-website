@@ -4,11 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid, brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 export const Footer = () => {
+  const curYear = new Date().getFullYear()
   return (
     <footer className="text-slate-500 bg-rose-100">
       <div className="container flex flex-col-reverse items-center max-w-5xl px-8 py-3 mx-auto sm:flex-row">
         <p className="mt-4 text-basesm:pl-4 sm:mt-0 sm:py-2">
-          © 2022 Garon Fok
+          © {curYear} Garon Fok
         </p>
         <span className="inline-flex justify-center mt-4 space-x-2 sm:ml-auto sm:mt-0 sm:justify-start">
           <a
