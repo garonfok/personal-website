@@ -21,18 +21,17 @@ export const projects = [
     link: "https://github.com/garonfok/personal-website",
   },
   {
-    title: "Daily MD",
-    builtWith:"TypeScript, Mocha",
+    title: "Blackbird",
+    builtWith:"TypeScript, Electron, React, TailwindCSS",
     description:
-      "VS Code Extension that generates Markdown files for notetaking.",
-    link: "https://github.com/garonfok/daily-md",
+      "Desktop software application that organizes and manages sheet music data and files",
+    link: "",
   },
 ];
 
 export const skills = [
   "JavaScript/TypeScript",
   "React",
-  "Node.js",
   "Python",
   "Laravel",
   "Docker",
@@ -40,6 +39,7 @@ export const skills = [
   "MongoDB",
   "MySQL",
   "PostgreSQL",
+  "GraphQL",
 ];
 
 export const music = [
