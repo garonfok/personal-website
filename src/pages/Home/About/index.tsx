@@ -19,9 +19,9 @@ export const About = () => {
           <div className="mb-8 leading-relaxed text-slate-700 gap-y-4 grid">
             <p>My name is Garon Fok, and I'm a software engineer based in the San Francisco Bay Area.
             </p>
-            <p>I have development experience in React, Laravel, MySQL, and Node, and am currently working as a front-end engineer.
+            <p>I'm a full stack developer with development experience in TypeScript, ReactJS, NodeJS, PHP, and Laravel.
             </p>
-            <p>I'm looking for roles and opportunities in full-stack development. If you're interested, feel free to send me an email!</p>
+            <p>I'm currently looking for roles and opportunities in which I can grow as a developer. If you're interested, feel free to send me an email!</p>
             <p>In my spare time, I also teach private music lessons in trumpet, trombone, euphonium, and tuba!</p>
             <a target="_blank" rel="noreferrer" href="https://github.com/garonfok" className="inline-block text-center items-center gap-x-4 text-xl justify-center w-full py-2 my-2 mx-auto text-white rounded-lg shadow-md bg-slate-900 hover:bg-slate-700">
               <FontAwesomeIcon icon={brands("github")} /> Follow me on GitHub <FontAwesomeIcon icon={solid("chevron-right")} />
