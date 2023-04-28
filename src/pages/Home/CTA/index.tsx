@@ -2,7 +2,7 @@
 
 export const CTA = () => {
 
-  const RESUME_URL = `${process.env.PUBLIC_URL}/resume.pdf`
+  const RESUME_URL = `${process.env.PUBLIC_URL}/garon_fok_resume.pdf`
   return (
     <section id="cta" className="bg-gradient-to-b from-slate-200 to-rose-100">
       <div className="container max-w-5xl px-4 py-10 mx-auto text-center lg:px-40">
