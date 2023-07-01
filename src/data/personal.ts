@@ -3,14 +3,14 @@ export const projects = [
     title: "Blackbird",
     builtWith:"TypeScript, Electron, React, TailwindCSS",
     description:
-      "Desktop software application that organizes and manages sheet music data and files",
+      "Desktop software application that organizes and manages sheet music data and files.",
     link: "",
   },
   {
     title: "Blockulator",
     builtWith:"TypeScript, React, Java, Spring, TailwindCSS",
     description:
-      "Web application that converts images into Minecraft pixel art schematics",
+      "Web application that converts images into Minecraft pixel art schematics.",
     link: "https://github.com/garonfok/blockulator",
   },
   {
