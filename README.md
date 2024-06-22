@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is the personal website of Garon Fok. It is built with TypeScript, Node.js, React, TailwindCSS, and HeadlessUI.
+This is the personal website of Garon Fok.
 
 - [Personal Website](#personal-website)
   - [Summary](#summary)
